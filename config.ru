@@ -1,5 +1,7 @@
 # Required packages
 require 'sidekiq'
+require 'sidekiq-pro'
+require 'sidekiq/pro/web'
 
 # Configure client
 Sidekiq.configure_client do |config|
