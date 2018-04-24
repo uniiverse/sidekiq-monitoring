@@ -2,6 +2,7 @@
 require 'sidekiq'
 require 'sidekiq-pro'
 require 'sidekiq/pro/web'
+require 'sidetiq/web'
 
 # Configure client
 Sidekiq.configure_client do |config|
