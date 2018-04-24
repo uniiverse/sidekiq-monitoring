@@ -1,6 +1,6 @@
 FROM ruby
 
-RUN gem install rack sidekiq
+RUN gem install rack sidekiq:'< 5' redis-namespace
 COPY config.ru config.ru
 
 EXPOSE 9292
